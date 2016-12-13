@@ -38,4 +38,10 @@ public class HelloController {
         return "welcome/home";
     }
 
+    @RequestMapping(value = "/print", method = {RequestMethod.GET, RequestMethod.POST})
+    public String print(Model model) {
+    	logger.info("printing...");
+    	model.addAttribute("test1", "test1");
+    	return "jasperPdfView";
+    }
 }
