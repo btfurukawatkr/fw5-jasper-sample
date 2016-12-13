@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2016-12-13T15:55:29 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sample" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="398c5dea-4598-4fb3-975a-543ac2d47b75">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="AAA" class="java.lang.String"/>
+	<field name="BBB" class="java.lang.String"/>
+	<field name="CCC" class="java.lang.String"/>
+	<field name="DDD" class="java.lang.String"/>
+	<field name="EEE" class="java.lang.String"/>
+	<field name="FFF" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="79" uuid="8e65b4bb-7cc2-4b79-82a4-11088d9a807d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="32" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Jasper Report Output Sample]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="79" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="40" width="100" height="30" uuid="ad69f107-209b-46af-a066-a73f5cf1dc00"/>
+				<textFieldExpression><![CDATA[$F{AAA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="40" width="100" height="30" uuid="3878c600-a6bf-4c55-aaf4-c001934b4e67"/>
+				<textFieldExpression><![CDATA[$F{BBB}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="40" width="100" height="30" uuid="27a5c10f-00f9-4c2f-bd6e-ceba54867441"/>
+				<textFieldExpression><![CDATA[$F{CCC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="40" width="100" height="30" uuid="7a2308f7-efa2-4b5d-9fd2-b5dfca571196"/>
+				<textFieldExpression><![CDATA[$F{DDD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="39" width="100" height="30" uuid="96cf6e62-c166-4378-811d-91bd174b8f1c"/>
+				<textFieldExpression><![CDATA[$F{EEE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="40" width="100" height="30" uuid="ab3c6dbd-8204-4e8c-9600-4bafff4085e1"/>
+				<textFieldExpression><![CDATA[$F{FFF}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="70" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

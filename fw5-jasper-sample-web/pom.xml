@@ -186,5 +186,11 @@
 			<artifactId>bcprov-jdk14</artifactId>
 			<version>1.38</version>
 		</dependency>
+
+		<!-- for Jasper -->
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+		</dependency>
     </dependencies>
 </project>
